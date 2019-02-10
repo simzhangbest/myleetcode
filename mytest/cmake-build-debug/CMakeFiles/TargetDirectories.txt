@@ -1,0 +1,3 @@
+/mnt/hgfs/workspace_win/leetcode/mytest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/hgfs/workspace_win/leetcode/mytest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/workspace_win/leetcode/mytest/cmake-build-debug/CMakeFiles/mytest.dir

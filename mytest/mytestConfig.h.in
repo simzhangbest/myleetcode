@@ -1,0 +1,10 @@
+//
+// Created by book on 18-11-19.
+//
+
+#ifndef MYTEST_MYTESTCONFIG_H
+#define MYTEST_MYTESTCONFIG_H
+
+#define myconfig
+
+#endif //MYTEST_MYTESTCONFIG_H
