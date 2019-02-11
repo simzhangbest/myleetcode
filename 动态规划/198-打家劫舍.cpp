@@ -3,6 +3,7 @@
 class Solution {
 public:
     int rob(vector<int>& nums) {
+        // 假设第i个房间的最优解为dp[i]
         if(nums.size() == 0){
         	return 0;
         }
