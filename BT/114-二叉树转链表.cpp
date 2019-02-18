@@ -17,7 +17,6 @@ public:
 		for (int i = 1; i < node_vec.size(); i++) {
 			node_vec[i-1]->left = NULL;
 			node_vec[i-1]->right = node_vec[i];
-			
 		}
 	}
 	private:

@@ -4,19 +4,11 @@ struct TreeNode {
 	int val;
 	TreeNode *left;
 	TreeNode *right;
-	TreeNode (int x) :val(x), left(NULL), right(NULL) {
-		
-	} 
+	TreeNode (int x) :val(x), left(NULL), right(NULL) {}
 };
-
 void preorder_print(TreeNode *node, int layer) {
-	if(!node) {
-		return;
-	}
-	for(int i = 0; i < layer; i++) {
-		printf("----------");
-	} 
-	
+	if(!node) { return; }
+	for(int i = 0; i < layer; i++) { printf("----------"); }
 	printf("[%d]\n", node->val);
 	preorder_print(node->left, layer + 1);
 	preorder_print(node->right, layer + 1);

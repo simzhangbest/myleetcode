@@ -13,7 +13,6 @@ public:
 	        else if(Q.top() < nums[i]){
         		Q.pop();
         		Q.push(nums[i]);
-        		
         	}
         }
         return Q.top();

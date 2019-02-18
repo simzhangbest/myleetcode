@@ -6,7 +6,6 @@ def createCounter():
         return count
     return counter
 
-
 f = createCounter()
 for i in range(10):
     print(f())

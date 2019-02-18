@@ -23,7 +23,9 @@ public:
          	headA = headA->next;
          }
          while(headB){
-         	if(node_set.find(headB)!= node_set.end())
+         	if(node_set.find(headB)!= node_set.end()){
+         	    return headB;
+         	}
          	headB = headB->next;
          }
          return NULL;
