@@ -1,0 +1,6 @@
+userA    123         444
+userB       200         600
+userC       144         500
+userD       155         800
+userA       500         700
+userF       444         800
