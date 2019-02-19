@@ -22,7 +22,7 @@ std::vector<std::string> split(const std::string& s, char delimiter)
     }
     return tokens;
 }
-// 分隔符会多次分割
+// 分隔符可能会多次分割
 std::vector<std::string> split_multi(const std::string& s, char delimiter)
 {
     std::vector<std::string> tokens;
