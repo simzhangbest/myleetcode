@@ -2,6 +2,7 @@
 // Created by sim.zhang on 2019/2/8.
 //
 
+#include <string>
 
 class Solution {
 public:

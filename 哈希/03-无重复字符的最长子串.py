@@ -15,4 +15,5 @@ class Solution(object):
                 res = res[index + 1:] + ch
         return max(maxlen, len(res))
 
-Solution().lengthOfLongestSubstring("abcabcdac")
+solve = Solution()
+print(solve.lengthOfLongestSubstring("abcabcdac"))
